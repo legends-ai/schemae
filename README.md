@@ -1,0 +1,3 @@
+# schemae
+
+Schemas for Cassandra.

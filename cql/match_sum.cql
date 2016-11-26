@@ -4,9 +4,10 @@ CREATE TABLE IF NOT EXISTS athena_out.match_sums (
   patch text,
   tier int,
 
-  -- Region and Role enums
+  -- These are all enums.
   region int,
   role int,
+  queue int,
 
   -- MatchFilters message
   match_filters blob,

@@ -16,5 +16,5 @@ CREATE TABLE IF NOT EXISTS athena_out.match_sums (
   match_sum blob,
 
   -- the whole enchilada
-  PRIMARY KEY((champion_id, enemy_id, patch, tier, region, role))
+  PRIMARY KEY((champion_id, enemy_id, patch, tier, region, role, queue))
 );

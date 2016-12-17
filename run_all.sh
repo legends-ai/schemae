@@ -12,6 +12,5 @@ run_file() {
 run_file athena.$ATHENA_ENVIRONMENT.cql
 run_file athena_out.$ATHENA_ENVIRONMENT.cql
 run_file match_sum.cql
-run_file matches.cql
-run_file matches_serialized.cql
+run_file match_set.cql
 run_file rankings.cql

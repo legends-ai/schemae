@@ -1,9 +1,9 @@
-CREATE TABLE IF NOT EXISTS bacchus.match_set (
+CREATE TABLE IF NOT EXISTS match_set (
   id text,
   PRIMARY KEY(id)
 );
 
-CREATE TABLE IF NOT EXISTS bacchus.rankings (
+CREATE TABLE IF NOT EXISTS rankings (
   id text,
   rank bigint,
   ranking blob,

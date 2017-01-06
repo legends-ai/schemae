@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS match_sums.match_sums (
+CREATE TABLE IF NOT EXISTS match_sums (
   champion_id int,
   enemy_id int,
   patch text,
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS match_sums.match_sums (
   PRIMARY KEY((champion_id, enemy_id, patch, tier, region, role, queue))
 );
 
-CREATE TABLE IF NOT EXISTS match_sums.partial_sums (
+CREATE TABLE IF NOT EXISTS partial_sums (
   champion_id int,
   enemy_id int,
   patch text,

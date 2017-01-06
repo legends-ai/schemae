@@ -1,1 +1,1 @@
-CREATE KEYSPACE match_sums WITH REPLICATION = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
+CREATE KEYSPACE match_sums_dev WITH REPLICATION = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
